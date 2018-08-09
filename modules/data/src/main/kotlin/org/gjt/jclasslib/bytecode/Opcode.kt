@@ -219,6 +219,8 @@ enum class Opcode(override val tag: Int, val verbose: String, private val docAnc
     GOTO_W(200, "goto_w"),
     JSR_W(201, "jsr_w"),
     BREAKPOINT(202, "breakpoint", ""),
+    DEFAULTVALUE(203, "defaultvalue"),
+    WITHFIELD(204, "withfield"),
     IMPDEP1(254, "impdep1", ""),
     IMPDEP2(255, "impdep2", "");
 

@@ -38,6 +38,7 @@ class AttributeDetailPane(services: BrowserServices) : MultiDetailPane<Attribute
         addCard(ModuleTargetAttribute::class.java, ModuleTargetAttributeDetailPane(services))
         addCard(ModuleResolutionAttribute::class.java, ModuleResolutionAttributeDetailPane(services))
         addCard(ModuleHashesAttribute::class.java, ModuleHashesAttributeDetailPane(services))
+        addCard(ValueTypesAttribute::class.java, ValueTypesAttributeDetailPane(services))
     }
 
     override fun createGenericInfoPane() = GenericAttributeDetailPane(services)

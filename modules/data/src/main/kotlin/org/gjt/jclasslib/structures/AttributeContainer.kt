@@ -95,6 +95,7 @@ interface AttributeContainer {
         ModuleTargetAttribute.ATTRIBUTE_NAME -> ModuleTargetAttribute(classFile)
         ModuleHashesAttribute.ATTRIBUTE_NAME -> ModuleHashesAttribute(classFile)
         ModuleResolutionAttribute.ATTRIBUTE_NAME -> ModuleResolutionAttribute(classFile)
+        ValueTypesAttribute.ATTRIBUTE_NAME -> ValueTypesAttribute(classFile)
         else -> UnknownAttribute(attributeLength, classFile)
     }
 

@@ -249,6 +249,8 @@ object ByteCodeReader {
             Opcode.ANEWARRAY,
             Opcode.CHECKCAST,
             Opcode.INSTANCEOF,
+            Opcode.DEFAULTVALUE,
+            Opcode.WITHFIELD,
                 // the only immediate short instruction that does
                 // not have an immediate constant pool reference
             Opcode.SIPUSH
